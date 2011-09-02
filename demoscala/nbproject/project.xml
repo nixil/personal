@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.ant.freeform</type>
+    <configuration>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/1">
+            <name>demoscala</name>
+        </general-data>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/2">
+            <!-- Do not use Project Properties customizer when editing this file manually. -->
+            <name>demoscala</name>
+            <properties>
+                <property name="ant.script">I:\play-1.2.3\framework\build.xml</property>
+                <property name="application.path">I:\play-1.2.3\demoscala</property>
+                <property name="application.name">demoscala</property>
+            </properties>
+            <folders>
+                <source-folder>
+                    <label>.</label>
+                    <location>.</location>
+                    <encoding>UTF-8</encoding>
+                </source-folder>
+                <source-folder>
+                    <label>app</label>
+                    <type>java</type>
+                    <location>app</location>
+                    <encoding>UTF-8</encoding>
+                </source-folder>
+                <source-folder>
+                    <label>tmp\generated</label>
+                    <type>java</type>
+                    <location>tmp/generated</location>
+                    <encoding>UTF-8</encoding>
+                </source-folder>
+                <source-folder>
+                    <label>test</label>
+                    <type>java</type>
+                    <location>test</location>
+                    <encoding>UTF-8</encoding>
+                </source-folder>
+            </folders>
+            <ide-actions>
+                <action name="clean">
+                    <script>${ant.script}</script>
+                    <target>clean</target>
+                    <property name="application.path">${application.path}</property>
+                </action>
+                <action name="build">
+                    <script>${ant.script}</script>
+                    <target>compile</target>
+                    <property name="application.path">${application.path}</property>
+                </action>
+                <action name="rebuild">
+                    <script>${ant.script}</script>
+                    <target>clean</target>
+                    <target>compile</target>
+                    <property name="application.path">${application.path}</property>
+                </action>
+                <action name="run">
+                    <script>${ant.script}</script>
+                    <target>nb-run-application</target>
+                    <property name="application.path">${application.path}</property>
+                </action>
+                <action name="debug">
+                    <script>${ant.script}</script>
+                    <target>nb-debug</target>
+                    <property name="application.name">${application.name}</property>
+                    <property name="application.path">${application.path}</property>
+                </action>
+                <action name="test">
+                    <script>${ant.script}</script>
+                    <target>test-application</target>
+                    <property name="application.path">${application.path}</property>
+                </action>
+                <action name="javadoc">
+                    <script>${ant.script}</script>
+                    <target>javadoc</target>
+                </action>
+            </ide-actions>
+            <export>
+                <type>folder</type>
+                <location>nbproject/classes</location>
+                <script>${ant.script}</script>
+                <build-target>compile</build-target>
+            </export>
+            <export>
+                <type>folder</type>
+                <location>nbproject/classes</location>
+                <script>${ant.script}</script>
+                <build-target>compile</build-target>
+            </export>
+            <view>
+                <items>
+                    <source-folder style="tree">
+                        <label>app/views</label>
+                        <location>app/views</location>
+                    </source-folder>
+                    <source-folder style="tree">
+                        <label>public</label>
+                        <location>public</location>
+                    </source-folder>
+                    <source-folder style="tree">
+                        <label>conf</label>
+                        <location>conf</location>
+                    </source-folder>
+                    <source-folder style="tree">
+                        <label>modules</label>
+                        <location>modules</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>app</label>
+                        <location>app</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>tmp\generated</label>
+                        <location>tmp/generated</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>test</label>
+                        <location>test</location>
+                    </source-folder>
+                </items>
+                <context-menu>
+                    <ide-action name="build"/>
+                    <ide-action name="rebuild"/>
+                    <ide-action name="clean"/>
+                    <ide-action name="javadoc"/>
+                    <ide-action name="run"/>
+                    <ide-action name="test"/>
+                    <ide-action name="debug"/>
+                    <action>
+                        <script>${ant.script}</script>
+                        <label>unit test</label>
+                        <target>unittest</target>
+                    </action>
+                </context-menu>
+            </view>
+            <subprojects/>
+        </general-data>
+        <java-data xmlns="http://www.netbeans.org/ns/freeform-project-java/2">
+            <compilation-unit>
+                <package-root>app</package-root>
+                <classpath mode="compile">conf;I:\play-1.2.3\framework\play-1.2.3.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\actions_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\akka-actor-1.0.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\api_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\cache_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\classfile_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\classpath_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\collections_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\compile_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\completion_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\configgy-2.0.2-nologgy.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\control_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\discovery_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\incremental-compiler_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\interface-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\io_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\ivy-2.2.0.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\ivy_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\launcher-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\launcher-interface-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\logging_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\main_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\persist_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\play-scala-compiler.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\play-scala.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\process_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\run_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\sbinary_2.8.0-0.3.1.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\sbt_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\scala-compiler.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\scala-library.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\scalatest-1.2-for-scala-2.8.0.RC7-SNAPSHOT.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\task-system_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\tasks_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\test-interface-0.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\testing_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\tracking_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\uuid-3.2.jar;I:\play-1.2.3\framework\lib\activation-1.1.1.jar;I:\play-1.2.3\framework\lib\antlr-2.7.6.jar;I:\play-1.2.3\framework\lib\asm-all-3.3.1.jar;I:\play-1.2.3\framework\lib\async-http-client-1.6.3.jar;I:\play-1.2.3\framework\lib\bcprov-jdk15-1.45.jar;I:\play-1.2.3\framework\lib\c3p0-0.9.1.2.jar;I:\play-1.2.3\framework\lib\cglib-nodep-2.2.jar;I:\play-1.2.3\framework\lib\commons-beanutils-1.8.3.jar;I:\play-1.2.3\framework\lib\commons-codec-1.4.jar;I:\play-1.2.3\framework\lib\commons-collections-3.2.1.jar;I:\play-1.2.3\framework\lib\commons-email-1.2.jar;I:\play-1.2.3\framework\lib\commons-fileupload-1.2.2.jar;I:\play-1.2.3\framework\lib\commons-io-2.0.1.jar;I:\play-1.2.3\framework\lib\commons-javaflow-1066591.jar;I:\play-1.2.3\framework\lib\commons-lang-2.6.jar;I:\play-1.2.3\framework\lib\commons-logging-1.1.1.jar;I:\play-1.2.3\framework\lib\dom4j-1.6.1.jar;I:\play-1.2.3\framework\lib\ehcache-core-2.0.0.jar;I:\play-1.2.3\framework\lib\ezmorph-1.0.3.jar;I:\play-1.2.3\framework\lib\geronimo-servlet_2.5_spec-1.2.jar;I:\play-1.2.3\framework\lib\groovy-all-1.7.7.jar;I:\play-1.2.3\framework\lib\gson-1.7.1.jar;I:\play-1.2.3\framework\lib\h2-1.3.149.jar;I:\play-1.2.3\framework\lib\hibernate-commons-annotations-3.2.0.Final.jar;I:\play-1.2.3\framework\lib\hibernate-core-3.6.1.Final.jar;I:\play-1.2.3\framework\lib\hibernate-entitymanager-3.6.0.Final.jar;I:\play-1.2.3\framework\lib\hibernate-jpa-2.0-api-1.0.0.Final.jar;I:\play-1.2.3\framework\lib\ivy-2.2.0.jar;I:\play-1.2.3\framework\lib\jamon-2.7.jar;I:\play-1.2.3\framework\lib\javassist-3.9.0.GA.jar;I:\play-1.2.3\framework\lib\javax.inject-1.0.jar;I:\play-1.2.3\framework\lib\jaxen-1.1.jar;I:\play-1.2.3\framework\lib\jj-imaging.jar;I:\play-1.2.3\framework\lib\jj-simplecaptcha.jar;I:\play-1.2.3\framework\lib\jj-textile.jar;I:\play-1.2.3\framework\lib\jj-wikitext.jar;I:\play-1.2.3\framework\lib\joda-time-1.6.jar;I:\play-1.2.3\framework\lib\jregex-1.2_01.jar;I:\play-1.2.3\framework\lib\jsr107cache-1.0.jar;I:\play-1.2.3\framework\lib\jta-1.1.jar;I:\play-1.2.3\framework\lib\junit-4.8.1.jar;I:\play-1.2.3\framework\lib\log4j-1.2.15.jar;I:\play-1.2.3\framework\lib\mail-1.4.3.jar;I:\play-1.2.3\framework\lib\memcached-2.6.jar;I:\play-1.2.3\framework\lib\mysql-connector-java-5.1.13.jar;I:\play-1.2.3\framework\lib\netty-3.2.4.Final.jar;I:\play-1.2.3\framework\lib\org.eclipse.jdt.core-3.6.0.jar;I:\play-1.2.3\framework\lib\oval-1.50.jar;I:\play-1.2.3\framework\lib\postgresql-9.0.jar;I:\play-1.2.3\framework\lib\signpost-core-1.2.jar;I:\play-1.2.3\framework\lib\slf4j-api-1.6.1.jar;I:\play-1.2.3\framework\lib\slf4j-log4j12-1.6.1.jar;I:\play-1.2.3\framework\lib\snakeyaml-1.7.jar;I:\play-1.2.3\framework\lib\xstream-1.3.jar;nbproject/classes;tmp/classes</classpath>
+                <built-to>nbproject/classes</built-to>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+            <compilation-unit>
+                <package-root>tmp/generated</package-root>
+                <classpath mode="compile">conf;I:\play-1.2.3\framework\play-1.2.3.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\actions_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\akka-actor-1.0.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\api_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\cache_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\classfile_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\classpath_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\collections_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\compile_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\completion_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\configgy-2.0.2-nologgy.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\control_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\discovery_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\incremental-compiler_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\interface-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\io_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\ivy-2.2.0.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\ivy_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\launcher-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\launcher-interface-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\logging_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\main_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\persist_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\play-scala-compiler.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\play-scala.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\process_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\run_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\sbinary_2.8.0-0.3.1.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\sbt_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\scala-compiler.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\scala-library.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\scalatest-1.2-for-scala-2.8.0.RC7-SNAPSHOT.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\task-system_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\tasks_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\test-interface-0.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\testing_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\tracking_2.8.1-0.9.5.jar;I:\play-1.2.3\modules\scala-0.9.1\lib\uuid-3.2.jar;I:\play-1.2.3\framework\lib\activation-1.1.1.jar;I:\play-1.2.3\framework\lib\antlr-2.7.6.jar;I:\play-1.2.3\framework\lib\asm-all-3.3.1.jar;I:\play-1.2.3\framework\lib\async-http-client-1.6.3.jar;I:\play-1.2.3\framework\lib\bcprov-jdk15-1.45.jar;I:\play-1.2.3\framework\lib\c3p0-0.9.1.2.jar;I:\play-1.2.3\framework\lib\cglib-nodep-2.2.jar;I:\play-1.2.3\framework\lib\commons-beanutils-1.8.3.jar;I:\play-1.2.3\framework\lib\commons-codec-1.4.jar;I:\play-1.2.3\framework\lib\commons-collections-3.2.1.jar;I:\play-1.2.3\framework\lib\commons-email-1.2.jar;I:\play-1.2.3\framework\lib\commons-fileupload-1.2.2.jar;I:\play-1.2.3\framework\lib\commons-io-2.0.1.jar;I:\play-1.2.3\framework\lib\commons-javaflow-1066591.jar;I:\play-1.2.3\framework\lib\commons-lang-2.6.jar;I:\play-1.2.3\framework\lib\commons-logging-1.1.1.jar;I:\play-1.2.3\framework\lib\dom4j-1.6.1.jar;I:\play-1.2.3\framework\lib\ehcache-core-2.0.0.jar;I:\play-1.2.3\framework\lib\ezmorph-1.0.3.jar;I:\play-1.2.3\framework\lib\geronimo-servlet_2.5_spec-1.2.jar;I:\play-1.2.3\framework\lib\groovy-all-1.7.7.jar;I:\play-1.2.3\framework\lib\gson-1.7.1.jar;I:\play-1.2.3\framework\lib\h2-1.3.149.jar;I:\play-1.2.3\framework\lib\hibernate-commons-annotations-3.2.0.Final.jar;I:\play-1.2.3\framework\lib\hibernate-core-3.6.1.Final.jar;I:\play-1.2.3\framework\lib\hibernate-entitymanager-3.6.0.Final.jar;I:\play-1.2.3\framework\lib\hibernate-jpa-2.0-api-1.0.0.Final.jar;I:\play-1.2.3\framework\lib\ivy-2.2.0.jar;I:\play-1.2.3\framework\lib\jamon-2.7.jar;I:\play-1.2.3\framework\lib\javassist-3.9.0.GA.jar;I:\play-1.2.3\framework\lib\javax.inject-1.0.jar;I:\play-1.2.3\framework\lib\jaxen-1.1.jar;I:\play-1.2.3\framework\lib\jj-imaging.jar;I:\play-1.2.3\framework\lib\jj-simplecaptcha.jar;I:\play-1.2.3\framework\lib\jj-textile.jar;I:\play-1.2.3\framework\lib\jj-wikitext.jar;I:\play-1.2.3\framework\lib\joda-time-1.6.jar;I:\play-1.2.3\framework\lib\jregex-1.2_01.jar;I:\play-1.2.3\framework\lib\jsr107cache-1.0.jar;I:\play-1.2.3\framework\lib\jta-1.1.jar;I:\play-1.2.3\framework\lib\junit-4.8.1.jar;I:\play-1.2.3\framework\lib\log4j-1.2.15.jar;I:\play-1.2.3\framework\lib\mail-1.4.3.jar;I:\play-1.2.3\framework\lib\memcached-2.6.jar;I:\play-1.2.3\framework\lib\mysql-connector-java-5.1.13.jar;I:\play-1.2.3\framework\lib\netty-3.2.4.Final.jar;I:\play-1.2.3\framework\lib\org.eclipse.jdt.core-3.6.0.jar;I:\play-1.2.3\framework\lib\oval-1.50.jar;I:\play-1.2.3\framework\lib\postgresql-9.0.jar;I:\play-1.2.3\framework\lib\signpost-core-1.2.jar;I:\play-1.2.3\framework\lib\slf4j-api-1.6.1.jar;I:\play-1.2.3\framework\lib\slf4j-log4j12-1.6.1.jar;I:\play-1.2.3\framework\lib\snakeyaml-1.7.jar;I:\play-1.2.3\framework\lib\xstream-1.3.jar;nbproject/classes;tmp/classes</classpath>
+                <built-to>nbproject/classes</built-to>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+            <compilation-unit>
+                <package-root>test</package-root>
+                <unit-tests/>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+        </java-data>
+        <preferences xmlns="http://www.netbeans.org/ns/auxiliary-configuration-preferences/1">
+            <module name="org-netbeans-modules-editor-indent">
+                <node name="CodeStyle">
+                    <property name="usedProfile" value="project"/>
+                    <node name="project">
+                        <property name="spaces-per-tab" value="8"/>
+                        <property name="tab-size" value="8"/>
+                        <property name="indent-shift-width" value="8"/>
+                        <property name="expand-tabs" value="true"/>
+                        <property name="text-limit-width" value="80"/>
+                        <property name="text-line-wrap" value="none"/>
+                    </node>
+                </node>
+                <node name="text">
+                    <node name="x-java">
+                        <node name="CodeStyle">
+                            <node name="project">
+                                <property name="spaces-per-tab" value="8"/>
+                                <property name="tab-size" value="8"/>
+                                <property name="indent-shift-width" value="8"/>
+                                <property name="expand-tabs" value="true"/>
+                                <property name="text-limit-width" value="80"/>
+                                <property name="text-line-wrap" value="none"/>
+                            </node>
+                        </node>
+                    </node>
+                </node>
+            </module>
+            <module name="org-netbeans-modules-projectimport-eclipse-core"/>
+            <module name="org-netbeans-modules-html-editor-lib"/>
+        </preferences>
+    </configuration>
+</project>

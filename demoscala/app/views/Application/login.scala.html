@@ -1,0 +1,24 @@
+@(title:String = "")(implicit flash:play.mvc.Scope.Flash)
+@main(title = "请登录"){
+<div>
+        <span>@title</span>
+        @if(flash.get("error")) {
+            <p style="color:#c00">
+                @flash.get("error")
+            </p>
+        }
+        <form action="@action(controllers.Application.welcome)" method="GET">
+                <p>
+                        <label for="username">UserName:</label>
+                        <input type="text" name="username" />
+                </p>
+                <p>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" />
+                </p>
+                <p>
+                        <input id="submit" type="submit" value="LetMeIn" />
+                </p>    
+        </form>
+</div>
+}

@@ -1,0 +1,162 @@
+01 九月 2011 14:31:28,311 INFO  ~ Starting I:\play-1.2.3\demoscala
+01 九月 2011 14:31:28,321 INFO  ~ Module scala is available (I:\play-1.2.3\modules\scala-0.9.1)
+01 九月 2011 14:31:31,607 INFO  ~ Scala support is active
+01 九月 2011 14:31:31,610 WARN  ~ You're running Play! in DEV mode
+01 九月 2011 14:31:31,823 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+01 九月 2011 14:32:09,106 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+01 九月 2011 14:32:09,155 INFO  ~ Application 'demoscala' is now started !
+01 九月 2011 14:58:44,437 ERROR ~ 
+
+@67i9h4egc
+Internal Server Error (500) for request GET /Application/login
+
+Compilation error (In /app/views/Application/login.scala.html around line 4)
+The file /app/views/Application/login.scala.html could not be compiled. Error raised is : not found: value title
+
+play.exceptions.CompilationException: not found: value title
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+01 九月 2011 14:59:36,719 ERROR ~ 
+
+@67i9h4egd
+Internal Server Error (500) for request GET /Application/login
+
+Compilation error (In /app/views/Application/login.scala.html around line 2)
+The file /app/views/Application/login.scala.html could not be compiled. Error raised is : '=>' expected but ':' found.
+
+play.exceptions.CompilationException: '=>' expected but ':' found.
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+01 九月 2011 15:01:06,588 ERROR ~ 
+
+@67i9h4ege
+Internal Server Error (500) for request GET /Application/login
+
+Compilation error (In /app/views/Application/login.scala.html around line 2)
+The file /app/views/Application/login.scala.html could not be compiled. Error raised is : ')' expected but '=' found.
+
+play.exceptions.CompilationException: ')' expected but '=' found.
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+01 九月 2011 15:17:01,915 ERROR ~ 
+
+@67i9h4egf
+Internal Server Error (500) for request GET /Application/login
+
+Compilation error (In /app/views/Application/login.scala.html around line 2)
+The file /app/views/Application/login.scala.html could not be compiled. Error raised is : ')' expected but '=' found.
+
+play.exceptions.CompilationException: ')' expected but '=' found.
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+01 九月 2011 17:07:37,604 ERROR ~ 
+
+@67i9h4egg
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/controllers.scala around line 10)
+The file /app/controllers.scala could not be compiled. Error raised is : not found: type Options
+
+play.exceptions.CompilationException: not found: type Options
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+01 九月 2011 17:09:02,971 ERROR ~ 
+
+@67i9h4egh
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/views/Application/welcome.scala.html around line 7)
+The file /app/views/Application/welcome.scala.html could not be compiled. Error raised is : missing arguments for method index in object Application; follow this method with `_' if you want to treat it as a partially applied function
+
+play.exceptions.CompilationException: missing arguments for method index in object Application;
+follow this method with `_' if you want to treat it as a partially applied function
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+01 九月 2011 17:11:49,714 ERROR ~ 
+
+@67i9h4egi
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/views/Application/welcome.scala.html around line 7)
+The file /app/views/Application/welcome.scala.html could not be compiled. Error raised is : missing arguments for method index in object Application; follow this method with `_' if you want to treat it as a partially applied function
+
+play.exceptions.CompilationException: missing arguments for method index in object Application;
+follow this method with `_' if you want to treat it as a partially applied function
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+01 九月 2011 17:11:52,983 ERROR ~ 
+
+@67i9h4egj
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/views/Application/welcome.scala.html around line 7)
+The file /app/views/Application/welcome.scala.html could not be compiled. Error raised is : missing arguments for method index in object Application; follow this method with `_' if you want to treat it as a partially applied function
+
+play.exceptions.CompilationException: missing arguments for method index in object Application;
+follow this method with `_' if you want to treat it as a partially applied function
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+01 九月 2011 17:14:18,499 ERROR ~ 
+
+@67i9h4egk
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/views/Application/welcome.scala.html around line 7)
+The file /app/views/Application/welcome.scala.html could not be compiled. Error raised is : missing arguments for method index in object Application; follow this method with `_' if you want to treat it as a partially applied function
+
+play.exceptions.CompilationException: missing arguments for method index in object Application;
+follow this method with `_' if you want to treat it as a partially applied function
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+01 九月 2011 17:14:25,816 ERROR ~ 
+
+@67i9h4egl
+Internal Server Error (500) for request GET /Application/index
+
+Compilation error (In /app/views/Application/welcome.scala.html around line 7)
+The file /app/views/Application/welcome.scala.html could not be compiled. Error raised is : missing arguments for method index in object Application; follow this method with `_' if you want to treat it as a partially applied function
+
+play.exceptions.CompilationException: missing arguments for method index in object Application;
+follow this method with `_' if you want to treat it as a partially applied function
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)

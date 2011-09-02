@@ -1,0 +1,10 @@
+@(user:models.User)
+
+@main(title="UserIndex"){
+	<p>用户信息</p>
+	<hr>
+	<div>
+		<p>姓名：@user.name</p>
+		<p>邮件：@user.email</p>
+	</div>
+}
