@@ -663,3 +663,387 @@ follow this method with `_' if you want to treat it as a partially applied funct
 	at play.Play.detectChanges(Play.java:594)
 	at play.Invoker$Invocation.init(Invoker.java:186)
 	at Invocation.HTTP Request(Play!)
+05 九月 2011 18:55:25,300 ERROR ~ 
+
+@67jbho2kn
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/controllers.scala around line 20)
+The file /app/controllers.scala could not be compiled. Error raised is : not found: value Validation
+
+play.exceptions.CompilationException: not found: value Validation
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 19:03:55,099 ERROR ~ 
+
+@67jbho2ko
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/controllers.scala around line 20)
+The file /app/controllers.scala could not be compiled. Error raised is : not found: value Validation
+
+play.exceptions.CompilationException: not found: value Validation
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 19:13:18,636 ERROR ~ 
+
+@67jbho2kp
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/views/Application/index.scala.html around line 36)
+The file /app/views/Application/index.scala.html could not be compiled. Error raised is : missing arguments for method save in object Application; follow this method with `_' if you want to treat it as a partially applied function
+
+play.exceptions.CompilationException: missing arguments for method save in object Application;
+follow this method with `_' if you want to treat it as a partially applied function
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 19:13:44,261 ERROR ~ 
+
+@67jbho2l0
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/views/Application/index.scala.html around line 36)
+The file /app/views/Application/index.scala.html could not be compiled. Error raised is : missing parameter type for expanded function ((x$1) => controllers.Application.save(x$1))
+
+play.exceptions.CompilationException: missing parameter type for expanded function ((x$1) => controllers.Application.save(x$1))
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 19:14:50,467 ERROR ~ 
+
+@67jbho2l1
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/views/Application/index.scala.html around line 36)
+The file /app/views/Application/index.scala.html could not be compiled. Error raised is : type mismatch;  found   : Int(1)  required: Option[Long]
+
+play.exceptions.CompilationException: type mismatch;
+ found   : Int(1)
+ required: Option[Long]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 19:15:14,658 ERROR ~ 
+
+@67jbho2l2
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/views/Application/index.scala.html around line 36)
+The file /app/views/Application/index.scala.html could not be compiled. Error raised is : scala.Long of type object Long does not take parameters
+
+play.exceptions.CompilationException: scala.Long of type object Long does not take parameters
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 19:16:35,015 ERROR ~ 
+
+@67jbho2l3
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/views/Application/index.scala.html around line 36)
+The file /app/views/Application/index.scala.html could not be compiled. Error raised is : missing arguments for method save in object Application; follow this method with `_' if you want to treat it as a partially applied function
+
+play.exceptions.CompilationException: missing arguments for method save in object Application;
+follow this method with `_' if you want to treat it as a partially applied function
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 19:17:05,601 ERROR ~ 
+
+@67jbho2l4
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/controllers.scala around line 21)
+The file /app/controllers.scala could not be compiled. Error raised is : constructor cannot be instantiated to expected type;  found   : Some[A]  required: play.db.anorm.Pk[Long]
+
+play.exceptions.CompilationException: constructor cannot be instantiated to expected type;
+ found   : Some[A]
+ required: play.db.anorm.Pk[Long]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 19:17:31,824 ERROR ~ 
+
+@67jbho2l5
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/controllers.scala around line 21)
+The file /app/controllers.scala could not be compiled. Error raised is : constructor cannot be instantiated to expected type;  found   : Some[A]  required: play.db.anorm.Pk[Long]
+
+play.exceptions.CompilationException: constructor cannot be instantiated to expected type;
+ found   : Some[A]
+ required: play.db.anorm.Pk[Long]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 19:18:12,500 ERROR ~ 
+
+@67jbho2l6
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/controllers.scala around line 22)
+The file /app/controllers.scala could not be compiled. Error raised is : constructor cannot be instantiated to expected type;  found   : Some[A]  required: play.db.anorm.Pk[Long]
+
+play.exceptions.CompilationException: constructor cannot be instantiated to expected type;
+ found   : Some[A]
+ required: play.db.anorm.Pk[Long]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 19:18:56,788 ERROR ~ 
+
+@67jbho2l7
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/controllers.scala around line 25)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:229)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at play.db.anorm.M$$anonfun$14.apply(Anorm.scala:431)
+	at play.db.anorm.M$$anonfun$14.apply(Anorm.scala:431)
+	at play.db.anorm.M$class.create(Anorm.scala:431)
+	at play.db.anorm.Convention$Magic.create(Anorm.scala:357)
+	at controllers.Application$.save(controllers.scala:25)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.html.main$.apply(views.html.main.scala:25)
+	at views.Application.html.index$.apply(views.Application.html.index.scala:16)
+	at controllers.Application$.index(controllers.scala:15)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:494)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	... 1 more
+05 九月 2011 19:21:02,068 ERROR ~ 
+
+@67jbho2l8
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/controllers.scala around line 25)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:229)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at play.db.anorm.M$$anonfun$14.apply(Anorm.scala:431)
+	at play.db.anorm.M$$anonfun$14.apply(Anorm.scala:431)
+	at play.db.anorm.M$class.create(Anorm.scala:431)
+	at play.db.anorm.Convention$Magic.create(Anorm.scala:357)
+	at controllers.Application$.save(controllers.scala:25)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.html.main$.apply(views.html.main.scala:25)
+	at views.Application.html.index$.apply(views.Application.html.index.scala:16)
+	at controllers.Application$.index(controllers.scala:15)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:494)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	... 1 more
+05 九月 2011 19:21:03,456 ERROR ~ 
+
+@67jbho2l9
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/controllers.scala around line 25)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:229)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at play.db.anorm.M$$anonfun$14.apply(Anorm.scala:431)
+	at play.db.anorm.M$$anonfun$14.apply(Anorm.scala:431)
+	at play.db.anorm.M$class.create(Anorm.scala:431)
+	at play.db.anorm.Convention$Magic.create(Anorm.scala:357)
+	at controllers.Application$.save(controllers.scala:25)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.html.main$.apply(views.html.main.scala:25)
+	at views.Application.html.index$.apply(views.Application.html.index.scala:16)
+	at controllers.Application$.index(controllers.scala:15)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:494)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	... 1 more
+05 九月 2011 19:22:07,602 ERROR ~ 
+
+@67jbho2la
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/controllers.scala around line 26)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:229)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at play.db.anorm.M$$anonfun$14.apply(Anorm.scala:431)
+	at play.db.anorm.M$$anonfun$14.apply(Anorm.scala:431)
+	at play.db.anorm.M$class.create(Anorm.scala:431)
+	at play.db.anorm.Convention$Magic.create(Anorm.scala:357)
+	at controllers.Application$.save(controllers.scala:26)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.html.main$.apply(views.html.main.scala:25)
+	at views.Application.html.index$.apply(views.Application.html.index.scala:16)
+	at controllers.Application$.index(controllers.scala:15)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:494)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	... 1 more
+05 九月 2011 19:22:30,260 ERROR ~ 
+
+@67jbho2lb
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/controllers.scala around line 21)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:229)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at play.db.anorm.M$$anonfun$14.apply(Anorm.scala:431)
+	at play.db.anorm.M$$anonfun$14.apply(Anorm.scala:431)
+	at play.db.anorm.M$class.create(Anorm.scala:431)
+	at play.db.anorm.Convention$Magic.create(Anorm.scala:357)
+	at controllers.Application$.save(controllers.scala:21)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.html.main$.apply(views.html.main.scala:25)
+	at views.Application.html.index$.apply(views.Application.html.index.scala:16)
+	at controllers.Application$.index(controllers.scala:15)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:494)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	... 1 more
+05 九月 2011 19:26:19,989 ERROR ~ 
+
+@67jbho2lc
+Internal Server Error (500) for request GET /
+
+Compilation error (In /test/TaskTest.scala around line 35)
+The file /test/TaskTest.scala could not be compiled. Error raised is : not found: value scalar Error occurred in an application involving default arguments.
+
+play.exceptions.CompilationException: not found: value scalar
+Error occurred in an application involving default arguments.
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 19:31:38,638 ERROR ~ 
+
+@67jbho2ld
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/controllers.scala around line 20)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:229)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at controllers.Application$.save(controllers.scala:20)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.html.main$.apply(views.html.main.scala:25)
+	at views.Application.html.index$.apply(views.Application.html.index.scala:16)
+	at controllers.Application$.index(controllers.scala:15)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:494)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	... 1 more
+05 九月 2011 19:34:23,739 ERROR ~ 
+
+@67jbho2le
+Internal Server Error (500) for request GET /
+
+Execution exception (In /app/controllers.scala around line 25)
+NullPointerException occured : null
+
+play.exceptions.JavaExecutionException
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:229)
+	at Invocation.HTTP Request(Play!)
+Caused by: java.lang.NullPointerException
+	at play.db.anorm.M$$anonfun$14.apply(Anorm.scala:431)
+	at play.db.anorm.M$$anonfun$14.apply(Anorm.scala:431)
+	at play.db.anorm.M$class.create(Anorm.scala:431)
+	at play.db.anorm.Convention$Magic.create(Anorm.scala:357)
+	at controllers.Application$.save(controllers.scala:25)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.Application.html.index$$anonfun$apply$1.apply(views.Application.html.index.scala:49)
+	at views.html.main$.apply(views.html.main.scala:25)
+	at views.Application.html.index$.apply(views.Application.html.index.scala:16)
+	at controllers.Application$.index(controllers.scala:16)
+	at play.mvc.ActionInvoker.invokeWithContinuation(ActionInvoker.java:546)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:500)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:494)
+	at play.mvc.ActionInvoker.invokeControllerMethod(ActionInvoker.java:471)
+	at play.mvc.ActionInvoker.invoke(ActionInvoker.java:159)
+	... 1 more
+05 九月 2011 19:36:24,312 ERROR ~ 
+
+@67jbho2lf
+Internal Server Error (500) for request GET /
+
+Compilation error (In /app/views/Application/index.scala.html around line 36)
+The file /app/views/Application/index.scala.html could not be compiled. Error raised is : missing arguments for method save in object Application; follow this method with `_' if you want to treat it as a partially applied function
+
+play.exceptions.CompilationException: missing arguments for method save in object Application;
+follow this method with `_' if you want to treat it as a partially applied function
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:127)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)

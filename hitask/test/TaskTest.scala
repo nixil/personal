@@ -27,6 +27,16 @@ class TaskTest extends UnitFlatSpec with ShouldMatchers with BeforeAndAfterEach 
 		SQL("select count(*) from Task") as scalar[Long] should be (4)
 	}
 
+	it should "create task " in {
+		import SqlParser._
+
+		val task = new Task("newTask")
+		Task.create(task)
+		SQL("""
+			select count(*) from Task where name='newTask'
+		""") as scalar[Long] should be (1)
+	}
+
 	"A TODO Task" should "be able to transfer to DOING" in {
 		import SqlParser._
 		val task = Task.find("where name='火烧赤壁'").single()

@@ -5,15 +5,19 @@
     <h1>Hello,Alex. Welcome To HiTask</h1>
     <h2 style="text-align:left"><u>@user的任务列表</u></h2>
     <div id="content" style="width:800px">
-        <div>
+        <div style="text-align:right">
             <div>
-                <span class="taskCategory">全部</span>
-                <span class="taskCategory" style="background-color:YELLOW">待办</span>
-                <span class="taskCategory" style="background-color:GREEN">进行中</span>
-                <span class="taskCategory" style="background-color:GREY">已完成</span>
+                <form action="/Application/save" method="GET" id="formNewTask">
+                    <span class="taskCategory">全部</span>
+                    <span class="taskCategory" style="background-color:YELLOW">待办</span>
+                    <span class="taskCategory" style="background-color:GREEN">进行中</span>
+                    <span class="taskCategory" style="background-color:GREY">已完成</span>
+                    <input id="inputTaskName" type="text" name="task.name" />
+                    <input id="" type="hidden" name="task.status" value="TODO">
+                    <input type="submit" value="新建" />
+                </form>
             </div>
         </div>
-
         <table width="100%">
             <tr>
                 <td>
@@ -31,6 +35,8 @@
                 </td>
             </tr>
         </table>
+
+       
     </div>  
 </div>
 }

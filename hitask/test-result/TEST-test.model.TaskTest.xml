@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<testsuite failures="0" time="0.035" errors="0" skipped="0" tests="3" name="test.model.TaskTest">
-  <testcase classname="test.model.TaskTest" name="should todoList method should work" time="0.011">
+<testsuite failures="0" time="0.088" errors="0" skipped="0" tests="4" name="test.model.TaskTest">
+  <testcase classname="test.model.TaskTest" name="should todoList method should work" time="0.015">
       </testcase>
-  <testcase classname="test.model.TaskTest" name="should test data load" time="0.013">
+  <testcase classname="test.model.TaskTest" name="should test data load" time="0.015">
       </testcase>
-  <testcase classname="test.model.TaskTest" name="A TODO Task should be able to transfer to DOING" time="0.011">
+  <testcase classname="test.model.TaskTest" name="should create task " time="0.045">
+      </testcase>
+  <testcase classname="test.model.TaskTest" name="A TODO Task should be able to transfer to DOING" time="0.013">
       </testcase>
 </testsuite>
