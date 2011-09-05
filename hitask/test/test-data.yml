@@ -1,0 +1,32 @@
+# you describe your data using the YAML notation here
+# and then load them using Fixtures.load("data.yml")
+
+# User(bob):
+#   email: bob@gmail.com
+#   password: secret
+#   fullname: Bob
+
+- !!models.Task
+    id:         !!NotAssigned
+    name:       火烧赤壁
+    status:     TODO
+    date:       1985-11-12
+
+- !!models.Task
+    id:         !!NotAssigned
+    name:       白衣渡江
+    status:     TODO
+    date:       1986-11-12
+
+- !!models.Task
+    id:         !!NotAssigned
+    name:       夜袭乌巢
+    status:     DOING
+    date:       1987-11-12
+
+- !!models.Task
+    id:         !!NotAssigned
+    name:       剿灭黄巾
+    status:     DONE
+    date:       1988-11-12
+

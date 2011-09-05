@@ -1,0 +1,1826 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font: font: size font"
+			],
+			[
+				"mar",
+				"margin: margin: T R B L"
+			],
+			[
+				"back",
+				"background: background-color: hex"
+			],
+			[
+				"list",
+				"list: list-style-type: other"
+			],
+			[
+				"border",
+				"border: border-bottom-color: color"
+			],
+			[
+				"background",
+				"background: background-color: hex"
+			],
+			[
+				"pad",
+				"padding: padding: all"
+			],
+			[
+				"text",
+				"text: text-align: left/center/right"
+			],
+			[
+				"sele",
+				"selenium"
+			],
+			[
+				"tit",
+				"title"
+			],
+			[
+				"en",
+				"engine"
+			],
+			[
+				"cnm",
+				"cumulative_noise_margin"
+			],
+			[
+				"fnli",
+				"flyover_noise_limit"
+			],
+			[
+				"apli",
+				"approach_noise_limit"
+			],
+			[
+				"lnl",
+				"lateral_noise_limit"
+			],
+			[
+				"fnl",
+				"flyover_noise_limit"
+			],
+			[
+				"anl",
+				"approach_noise_limit"
+			],
+			[
+				"emis",
+				"emissions"
+			],
+			[
+				"w_m",
+				"wingspan_m"
+			],
+			[
+				"len",
+				"length_m"
+			],
+			[
+				"mrw_l",
+				"mrw_lb"
+			],
+			[
+				"mrw_t",
+				"mrw_tn"
+			],
+			[
+				"mto_L",
+				"mtow_lb"
+			],
+			[
+				"mtow_t",
+				"mtow_tn"
+			],
+			[
+				"s_c",
+				"seating_capacity"
+			],
+			[
+				"for",
+				"foreach: <?php foreach (…) … <?php endforeach ?>"
+			],
+			[
+				"aircr_",
+				"aircraft_id"
+			],
+			[
+				"valid",
+				"validate"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"vali",
+				"validate"
+			],
+			[
+				"fm",
+				"fm_aircraft"
+			],
+			[
+				"Con",
+				"contact"
+			],
+			[
+				"air",
+				"airportCode"
+			],
+			[
+				"show",
+				"showChargeDetail"
+			],
+			[
+				"airportC",
+				"airportCodeBlur"
+			],
+			[
+				"divC",
+				"divChargeList"
+			],
+			[
+				"chargeI",
+				"chargeInfo"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"ass",
+				"assumptionTR"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"chk",
+				"chkAssumption"
+			],
+			[
+				"btn_t",
+				"btn_testRule"
+			],
+			[
+				"non",
+				"none"
+			],
+			[
+				"btn",
+				"btn_testRule"
+			],
+			[
+				"charget",
+				"chargeType"
+			],
+			[
+				"style",
+				"style"
+			],
+			[
+				"on",
+				"onParameterChange"
+			],
+			[
+				"oper",
+				"operator"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"div_ms",
+				"div_msg"
+			],
+			[
+				"div_",
+				"div_msgdetail"
+			],
+			[
+				"onc",
+				"onclick"
+			],
+			[
+				"div",
+				"div_msg"
+			],
+			[
+				"det",
+				"detailMsg"
+			],
+			[
+				"resp",
+				"response"
+			],
+			[
+				"displ",
+				"display: display: block"
+			],
+			[
+				"bt",
+				"btns"
+			],
+			[
+				"ali",
+				"align"
+			],
+			[
+				"ri",
+				"retId"
+			],
+			[
+				"so",
+				"solid"
+			],
+			[
+				"msg",
+				"msgbox"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"scrip",
+				"script"
+			],
+			[
+				"script",
+				"script"
+			],
+			[
+				"scri",
+				"script"
+			],
+			[
+				"code",
+				"code"
+			],
+			[
+				"input",
+				"input_code"
+			],
+			[
+				"td",
+				"tdSearch"
+			],
+			[
+				"tr",
+				"trChargeDetail"
+			],
+			[
+				"ta",
+				"tableChargeList"
+			],
+			[
+				"link",
+				"link"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"getv",
+				"getValue"
+			],
+			[
+				"in",
+				"increase"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"Ob",
+				"Object"
+			],
+			[
+				"Op",
+				"Option"
+			],
+			[
+				"RE",
+				"RuleEditor"
+			],
+			[
+				"opera",
+				"operators"
+			],
+			[
+				"Rule",
+				"RuleEditor"
+			],
+			[
+				"ap_co",
+				"ap_code_list"
+			],
+			[
+				"ap_",
+				"ap_code_list"
+			],
+			[
+				"param",
+				"paramlist"
+			],
+			[
+				"con",
+				"confirmeDelete"
+			],
+			[
+				"map",
+				"mapId"
+			],
+			[
+				"op",
+				"operator"
+			],
+			[
+				"pa",
+				"parameter"
+			],
+			[
+				"newRT",
+				"newRuleTR"
+			],
+			[
+				"app",
+				"appendTo"
+			],
+			[
+				"ru",
+				"rules"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"callback",
+				"callbackValidate"
+			],
+			[
+				"saveRu",
+				"saveRule"
+			],
+			[
+				"rules",
+				"rulesAndFunction"
+			],
+			[
+				"cal",
+				"callback"
+			],
+			[
+				"save",
+				"saveRule"
+			],
+			[
+				"rule",
+				"rulesAndFunction"
+			],
+			[
+				"par",
+				"parameter"
+			],
+			[
+				"para",
+				"parameter"
+			],
+			[
+				"sav",
+				"saveRule"
+			],
+			[
+				"move",
+				"moveEnd"
+			],
+			[
+				"inpu",
+				"input_formula"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"table",
+				"tableToRule"
+			],
+			[
+				"on_",
+				"on_keydown"
+			],
+			[
+				"ev",
+				"eventTarget"
+			],
+			[
+				"evT",
+				"eventTarget"
+			],
+			[
+				"dele",
+				"delRule"
+			],
+			[
+				"oncli",
+				"onclick"
+			],
+			[
+				"del",
+				"deleteConRow"
+			],
+			[
+				"td_",
+				"td_value"
+			],
+			[
+				"clo",
+				"clone"
+			],
+			[
+				"trcon",
+				"tr_con_template"
+			],
+			[
+				"new",
+				"newTR"
+			],
+			[
+				"addCon",
+				"addConRow"
+			],
+			[
+				"oncl",
+				"onclick"
+			],
+			[
+				"remove",
+				"removeAt"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"inde",
+				"index"
+			],
+			[
+				"newRule",
+				"newRuleTR"
+			],
+			[
+				"newRu",
+				"newRuleTR"
+			],
+			[
+				"conLa",
+				"conLastIndex"
+			],
+			[
+				"newR",
+				"newRuleTR"
+			],
+			[
+				"row",
+				"rowNum"
+			],
+			[
+				"tr_",
+				"tr_formula"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/I/personal/hitask/app/controllers.scala",
+			"settings":
+			{
+				"buffer_size": 276,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/I/personal/hitask/app/views/Application/index.scala.html",
+			"settings":
+			{
+				"buffer_size": 1349,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/I/personal/hitask/app/views/main.scala.html",
+			"settings":
+			{
+				"buffer_size": 489,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/I/personal/hitask/public/stylesheets/main.css",
+			"settings":
+			{
+				"buffer_size": 784,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/I/personal/hitask/app/models/Task.scala",
+			"settings":
+			{
+				"buffer_size": 334,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/I/play-1.2.3/modules/scala-0.9.1/src/play/db/anorm/Anorm.scala",
+			"settings":
+			{
+				"buffer_size": 41515,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/I/personal/hitask/app/bootstrap.scala",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/I/personal/hitask/conf/data.yml",
+			"settings":
+			{
+				"buffer_size": 465,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/I/personal/hitask/test/Tests.scala",
+			"settings":
+			{
+				"buffer_size": 279,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/I/personal/hitask/conf/application.conf",
+			"settings":
+			{
+				"buffer_size": 6589,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/I/personal/hitask/db/evolutions/1.sql",
+			"settings":
+			{
+				"buffer_size": 240,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 97,
+		"selected_items":
+		[
+			[
+				"convert spa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"con",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"int",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"",
+				"HTML: Encode Special Characters"
+			]
+		],
+		"width": 512
+	},
+	"console":
+	{
+		"height": 0
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/I/play-1.2.3/modules/scala-0.9.1/samples-and-tests/zencontact/test-result/TEST-SqlTests.xml",
+		"/C/Users/Alex Li/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/I/play-1.2.3/modules/scala-0.9.1/samples-and-tests/play-with-scala/app/scrapbook.scala",
+		"/I/play-1.2.3/demoscala/app/controllers/controllers.scala",
+		"/I/play-1.2.3/demoscala/app/views/Application/login.scala.html",
+		"/I/play-1.2.3/demoscala/demoscala.sublime-project",
+		"/I/play-1.2.3/demoscala/app/views/Application/index.scala.html",
+		"/I/play-1.2.3/demoscala/app/controllers/Users.scala",
+		"/I/play-1.2.3/demoscala/app/controllers.scala",
+		"/I/play-1.2.3/demoscala/app/views/User/index.scala.html",
+		"/I/play-1.2.3/demoscala/app/User.scala",
+		"/I/play-1.2.3/demoscala/conf/routes",
+		"/I/play-1.2.3/demoscala/test/data.yml",
+		"/I/play-1.2.3/demoscala/test/Tests.scala",
+		"/I/play-1.2.3/demoscala/test/Application.test.html",
+		"/I/play-1.2.3/demoscala/app/views/User/form.scala.html",
+		"/I/play-1.2.3/demoscala/app/views/main.scala.html",
+		"/I/play-1.2.3/demoscala/app/views/Application/welcome.scala.html",
+		"/I/play-1.2.3/modules/scala-0.9.1/src/play/mvc/ScalaController.scala",
+		"/I/play-1.2.3/framework/src/play/mvc/Controller.java",
+		"/I/play-1.2.3/resources/build.xml",
+		"/I/play-1.2.3/resources/application-build.xml",
+		"/I/play-1.2.3/demoscala/app/User",
+		"/C/Users/Alex Li/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/I/play-1.2.3/framework/src/play/mvc/Scope.java",
+		"/C/Users/Alex Li/AppData/Roaming/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/I/play-1.2.3/modules/scala-0.9.1/src/play/templates/ScalaTemplate.scala",
+		"/I/play-1.2.3/demoscala/modules/scala-0.9.1",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp4556433736815678266scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/aircraftspecs/addAirCraftSpec.jsp",
+		"/C/Users/Alex Li/AppData/Local/Temp/HZ$D.145.1658/HZ$D.145.1659/rulesets/basic.xml",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp4771215853860279481scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/aircraftspecs/editAirCraftSpec.jsp",
+		"/I/gbook/gbook/grails-app/domain/gbook/domain/Contact.groovy",
+		"/I/gbook/gbook/test/unit/gbook/domain/ContactTests.groovy",
+		"/I/gbook/gbook/grails-app/conf/Config.groovy",
+		"/I/gbook/gbook/test/unit/gbook/domain/UserTests.groovy",
+		"/I/gbook/gbook/grails-app/controllers/gbook/domain/ContactController.groovy",
+		"/I/gbook/gbook/grails-app/conf/BootStrap.groovy",
+		"/I/gbook/gbook/grails-app/views/contact/create.gsp",
+		"/I/gbook/gbook/grails-app/conf/spring/resources.groovy",
+		"/I/gbook/gbook/grails-app/i18n/messages_zh_CN.properties",
+		"/I/gbook/gbook/test/unit/gbook/domain/ContactControllerTests.groovy",
+		"/I/gbook/gbook/test/unit/gbook/domain/ContactBookTests.groovy",
+		"/I/gbook/gbook/web-app/WEB-INF/tld/fmt.tld",
+		"/I/gbook/gbook/target/test-reports/html/index.html",
+		"/D/lift-lift_24_sbt-cca6302/scala_28/lift_blank/src/main/webapp/mypage.html",
+		"/D/lift-lift_24_sbt-cca6302/scala_28/lift_blank/src/main/scala/bootstrap/liftweb/Boot.scala",
+		"/D/lift-lift_24_sbt-cca6302/scala_28/lift_blank/src/main/webapp/static/index.html",
+		"/D/lift-lift_24_sbt-cca6302/scala_28/lift_blank/src/main/webapp/index.html",
+		"/D/lift-lift_24_sbt-cca6302/scala_28/lift_blank/src/main/scala/code/snippet/HelloWorld.scala",
+		"/D/lift-lift_24_sbt-cca6302/scala_28/lift_xhtml/src/main/scala/code/snippet/HelloWorld.scala",
+		"/D/lift-lift_24_sbt-cca6302/scala_28/lift_xhtml/src/main/scala/bootstrap/liftweb/Boot.scala",
+		"/D/lift-lift_24_sbt-cca6302/scala_28/lift_xhtml/src/main/webapp/WEB-INF/web.xml",
+		"/D/scala/misc/scala-tool-support/notepad-plus/test.scala",
+		"/D/lift-lift_24_sbt-cca6302/scala_28/lift_basic/src/main/scala/code/snippet/HelloWorld.scala",
+		"/C/Users/Alex Li/Documents/My Received Files/scdb.sql",
+		"/C/Users/Alex Li/Documents/My Received Files/scdb(1).sql",
+		"/C/Users/Alex Li/Documents/NetBeansProjects/liftsample/pom.xml",
+		"/C/Users/Alex Li/Documents/NetBeansProjects/liftsample/nbactions.xml",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp7738475102279566995scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/rule/ruleCreate.jsp",
+		"/D/lift-lift_24_sbt-cca6302/scala_28/lift_basic/engine.js",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp4934607008947673077scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/chargeBudgeting.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp6554996571153698383scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/chargeBudgeting.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp6554996571153698383scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/charges/charge_list.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp2087232888398118587scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/charges/charge_list.jsp",
+		"/D/data/IATA/SampleData/Spain (MAD).xml",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp2177335180870631046scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/chargeBudgeting.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp2177335180870631046scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/charges/charge_list.jsp",
+		"/D/lift-lift_24_sbt-cca6302/scala_28/lift_basic/src/main/scala/bootstrap/liftweb/Boot.scala",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp2087232888398118587scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/chargeBudgeting.jsp",
+		"/I/oa/web/src/main/webapp/WEB-INF/pages/location/location.ftl",
+		"/D/lift-lift_24_sbt-cca6302/scala_28/lift_basic/src/main/webapp/WEB-INF/web.xml",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp2087232888398118587scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/charges/charge_detail.jsp",
+		"/D/lift-lift_24_sbt-cca6302/scala_28/lift_basic/src/main/webapp/index.html",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp4683370928349664700scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/charges/charge_list.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp5605307511643770701scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/charges/charge_detail.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp5605307511643770701scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/rule/ruleManagement.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp5605307511643770701scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/charges/charge_list.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp5605307511643770701scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/chargeBudgeting.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp3993985558206233120scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/chargeBudgeting.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp3328312541787348826scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/charges/charge_detail.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp3328312541787348826scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/chargeBudgeting.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp1075126816102929956scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/chargeBudgeting.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp1595061214536464797scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/chargeBudgeting.jsp",
+		"/D/dojo/test.html",
+		"/I/ananda/leftnavijavascript/home-dojo.html",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp1921004856074521250scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/chargeBudgeting.jsp",
+		"/I/pressbook/target/pressbook-0.1.0.BUILD-SNAPSHOT/WEB-INF/views/login.ftl",
+		"/I/pressbook/target/pressbook-0.1.0.BUILD-SNAPSHOT/WEB-INF/views/base.ftl",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp6201667342960071355scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/chargeBudgeting.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp6201667342960071355scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/benchmarking/benchmarking.jsp",
+		"/I/pressbook/src/main/java/com/helianthus/pressbook/domain/Contact_Roo_Entity.aj",
+		"/I/pressbook/target/pressbook-0.1.0.BUILD-SNAPSHOT/WEB-INF/views/home/home.ftl",
+		"/I/pressbook/src/main/webapp/WEB-INF/views/base.ftl",
+		"/I/pressbook/src/main/webapp/WEB-INF/views/contacts/views.xml",
+		"/I/pressbook/pom.xml",
+		"/I/pressbook/src/main/java/com/helianthus/pressbook/web/ContactController_Roo_Controller.aj",
+		"/I/pressbook/src/main/webapp/WEB-INF/views/contacts/create.ftl",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp6177060332271436084scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/rule/ruleEdit.jsp",
+		"/D/apache-tomcat-6.0.32/conf/web.xml",
+		"/D/apache-tomcat-6.0.32/conf/context.xml",
+		"/I/pressbook/src/main/webapp/WEB-INF/tags/tiles-jsp.tld",
+		"/I/pressbook/src/main/webapp/WEB-INF/views/contacts/sample.ftl",
+		"/C/Users/Alex Li/AppData/Roaming/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp1173749324710941808scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/rule/ruleEdit.jsp",
+		"/I/pressbook/src/main/java/com/helianthus/pressbook/domain/Contact_Roo_Configurable.aj",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp2493098733501309528scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/rule/testRule.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp2493098733501309528scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/rule/ruleCreate.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp4141202113270815761scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/rule/ruleManagement.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp1392016419825124861scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/rule/ruleManagement.jsp",
+		"/C/Users/Alex Li/.grails/1.3.7/projects/vip/plugins/freemarker-0.3/FreemarkerGrailsPlugin.groovy",
+		"/I/vip/grails-app/views/hello/index.ftl",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp7693173120817270992scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/rule/ruleManagement.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp7693173120817270992scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/rule/ruleEdit.jsp",
+		"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp6908978324989166042scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/printBudget.jsp",
+		"/I/vip/grails-app/conf/BuildConfig.groovy",
+		"/I/vip/grails-app/controllers/vip/HelloController.groovy",
+		"/I/vip/grails-app/views/layouts/main.gsp",
+		"/I/vip/grails-app/domain/vip/Member.groovy",
+		"/I/vip/grails-app/controllers/vip/MemberController.groovy",
+		"/C/Users/Alex Li/AppData/Roaming/Sublime Text 2/Packages/HTML/HTML.tmLanguage",
+		"/C/Users/Alex Li/AppData/Roaming/Sublime Text 2/Packages/JavaScript/JavaScript.tmLanguage",
+		"/C/Users/Alex Li/.grails/1.3.7/projects/GrailsApplication2/plugins/freemarker-0.3/FreemarkerGrailsPlugin.groovy",
+		"/C/Users/Alex Li/.grails/1.3.7/projects/GrailsApplication2/plugins/freemarker-0.3/src/groovy/org/springframework/grails/freemarker/GrailsFreeMarkerView.groovy",
+		"/C/Users/Alex Li/.grails/1.3.7/projects/GrailsApplication2/plugins/freemarker-0.3/src/groovy/org/springframework/grails/freemarker/GrailsFreeMarkerViewResolver.groovy",
+		"/C/Users/Alex Li/AppData/Roaming/Sublime Text 2/Packages/HTML/HTML.sublime-completions",
+		"/C/Users/Alex Li/AppData/Roaming/Sublime Text 2/Packages/HTML/Comments.tmPreferences",
+		"/C/Users/Alex Li/AppData/Roaming/Sublime Text 2/Packages/HTML/Symbol List - ID.tmPreferences",
+		"/C/Users/Alex Li/AppData/Roaming/Sublime Text 2/Packages/HTML/html_completions.py"
+	],
+	"find":
+	{
+		"height": 38
+	},
+	"find_in_files":
+	{
+		"height": 106,
+		"include_history":
+		[
+			""
+		],
+		"location_history":
+		[
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Contact",
+			"body",
+			"    </",
+			"open",
+			"open_file",
+			"html",
+			"Flash",
+			"tab",
+			"<label>",
+			"</b>",
+			"<b>",
+			"<input",
+			"</label>",
+			"<label",
+			"</b>",
+			"<b>",
+			"validateData",
+			"seating_capacity",
+			"input id",
+			"input_value",
+			"</form>",
+			"    function show (argument) {\n        // body...\n    }",
+			"showChargeDetail",
+			"var",
+			"input_code",
+			"airportCode",
+			"chargeInfo",
+			"divSearch",
+			"btnSwitch",
+			"atc_tr",
+			"fm_benchmarking",
+			"calculateCharge",
+			"btn_calculate",
+			"Calculate",
+			"JspTaglibs",
+			"class=\"dsq-header-avatar\"",
+			"dsq-comment-header",
+			"List all",
+			"List all               Contacts",
+			"button.btn3[disabled]{\n		background:none;\n	}",
+			"btn_testRule",
+			"getRuleList",
+			"<p style=\"text-align:left;\">",
+			"style=\"border-style:dotted; border-color:red; visibility:hidden;; position:absolute; left:0px; top:0px; width:800px; height:987px;;\"",
+			"style=\"font-family:Microsoft YaHei;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#333333;\"",
+			"Header_files",
+			"memberList_files",
+			"layout_files",
+			"axurerp_pagespecificscript.js ",
+			"resources/images",
+			"resources/scripts",
+			"resources/",
+			"</a>",
+			"\"/scdb-web/scdb/jsp/rule/ruleDetail.jsp\">",
+			"<a target=\"_blank\" href=",
+			"Remark",
+			" \"",
+			"wvsep",
+			"width",
+			"position:absolute;\n		left:400px;\n		top:300px;",
+			"validate",
+			"alert",
+			"droolsRuleId",
+			"console",
+			"console.log",
+			"<td></td>",
+			"<a href=\"#\">Add</a>",
+			"GlobalWrap",
+			"          \"#\"",
+			"GlobalWrap2",
+			"target=\"_blank\"",
+			"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px; spacing: 0px",
+			"GlobalWrap",
+			"  <script type=\"text/javascript\">\n//<![CDATA[\n  var blNeedToSave=false;\n  function test(){\n   return confirm('Do you want to logout?');\n  }\n  //]]>\n  </script>",
+			"test",
+			"aircrafts",
+			"addConRow",
+			"AddAirport",
+			"btn_addAirport",
+			"paramlist",
+			"ScdbUserMgmtHome",
+			"formular_input",
+			"addConRow",
+			"tr_con_template",
+			"rules.length",
+			"AddConRow",
+			"DeleteConRow",
+			"addRule",
+			"AddRule",
+			"delRule",
+			"AddRule",
+			"DeleteConRow",
+			"AddConRow",
+			"editDroolsRule",
+			"Search / View Airport Charges",
+			"formula",
+			" ",
+			"charges",
+			"renderChargeTable",
+			"placeholder",
+			"</a>",
+			"<a href='/scdb-web/scdb/jsp/rule/ruleDetail.jsp' target='_blank'>",
+			"createRow",
+			"] + \"'))'><",
+			"lnkView",
+			"refreshCustomerGrid",
+			"leads_create_dialog",
+			"leads_edit_dialog",
+			"leads_view_dialog",
+			"leads_edit_dialog",
+			"after_load_content",
+			"customer_create_dialog",
+			"customer_edit_dialog",
+			"customer_view_dialog",
+			"after_load_content",
+			"customer_edit_dialog",
+			"customer_add_dialog",
+			"customer_create_dialog",
+			"info.",
+			"reload",
+			"disabled=\"disabled\"",
+			"leads_flexigrid",
+			"客户",
+			"leads",
+			"customer.",
+			"customer",
+			"customer_",
+			"customer."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Task",
+			"<label for=\"\">",
+			"</label></b>",
+			"<b><label>",
+			"<label><b>",
+			"<input class=\"required\" ",
+			"</label></b>",
+			"<b><label",
+			"",
+			"input class=\"required\" id",
+			"",
+			"<p class=\"caption\">",
+			"class=\"searchBox\"",
+			"class=\"style1\"",
+			"/vip/memberList_files",
+			"/vip/layout_files",
+			"/vip/images",
+			"js",
+			"",
+			"\"",
+			"",
+			" ",
+			"",
+			"\"#\"",
+			"",
+			"input_formula",
+			"ruleNo",
+			"addConRow",
+			"deleteConRow",
+			"addRule",
+			"deleteConRow",
+			"addConRow",
+			"operLink",
+			"customerGridLoadData",
+			"loadLeadsContent",
+			"loadCustomerContent",
+			"readonly=\"true\"",
+			"潜在客户",
+			"leads",
+			"leads_",
+			"leads.",
+			"leads_",
+			"leads.",
+			"leads_",
+			"leads.",
+			"leads_",
+			"updateLeads",
+			"editLeads",
+			"createLeads",
+			"viewLeads",
+			"showLeadsGrid",
+			"getLeads",
+			"leads",
+			"leads_edit_form",
+			"leads_add_form",
+			"leads.",
+			"leads_flexigrid",
+			"leads_content",
+			"leads_confirm",
+			"leads_view_dialog",
+			"leads_edit_dialog",
+			"leads_create_dialog"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/I/personal/hitask/app/controllers.scala",
+					"settings":
+					{
+						"buffer_size": 276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Scala/Scala.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/I/personal/hitask/app/views/Application/index.scala.html",
+					"settings":
+					{
+						"buffer_size": 1349,
+						"regions":
+						{
+							"mark":
+							{
+								"flags": 144,
+								"icon": "dot",
+								"regions":
+								[
+									[
+										1225,
+										1225
+									]
+								],
+								"scope": "mark"
+							}
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/I/personal/hitask/app/views/main.scala.html",
+					"settings":
+					{
+						"buffer_size": 489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								489,
+								489
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/I/personal/hitask/public/stylesheets/main.css",
+					"settings":
+					{
+						"buffer_size": 784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								522,
+								522
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 600,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/I/personal/hitask/app/models/Task.scala",
+					"settings":
+					{
+						"buffer_size": 334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Scala/Scala.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/I/play-1.2.3/modules/scala-0.9.1/src/play/db/anorm/Anorm.scala",
+					"settings":
+					{
+						"buffer_size": 41515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18646,
+								18648
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Scala/Scala.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 16324,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/I/personal/hitask/app/bootstrap.scala",
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								288
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Scala/Scala.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/I/personal/hitask/conf/data.yml",
+					"settings":
+					{
+						"buffer_size": 465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								436,
+								436
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/I/personal/hitask/test/Tests.scala",
+					"settings":
+					{
+						"buffer_size": 279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Scala/Scala.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/I/personal/hitask/conf/application.conf",
+					"settings":
+					{
+						"buffer_size": 6589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2665,
+								2665
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 2177,
+						"zoom_level": 1
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/I/personal/hitask/db/evolutions/1.sql",
+					"settings":
+					{
+						"buffer_size": 240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								28,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.tmLanguage"
+						},
+						"translation.x": 0,
+						"translation.y": 0,
+						"zoom_level": 1
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0
+	},
+	"input":
+	{
+		"height": 38
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0,
+			1
+		],
+		"rows":
+		[
+			0,
+			1
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 72
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0,
+		"selected_items":
+		[
+			[
+				"task",
+				"app/models/Task.scala"
+			],
+			[
+				"conf",
+				"conf/application.conf"
+			],
+			[
+				"main.",
+				"public/stylesheets/main.css"
+			],
+			[
+				"controllers",
+				"app/controllers.scala"
+			],
+			[
+				"control",
+				"app/controllers/controllers.scala"
+			],
+			[
+				"users",
+				"app/controllers/Users.scala"
+			],
+			[
+				"welcome",
+				"app/views/Application/welcome.scala.html"
+			],
+			[
+				"index",
+				"app/views/Application/index.scala.html"
+			],
+			[
+				"contro",
+				"app/controllers.scala"
+			],
+			[
+				"re",
+				"grails-app/conf/spring/resources.groovy"
+			],
+			[
+				"res",
+				"grails-app/conf/spring/resources.groovy"
+			],
+			[
+				"contactct",
+				"test/unit/gbook/domain/ContactControllerTests.groovy"
+			],
+			[
+				"cc",
+				"grails-app/controllers/gbook/domain/ContactController.groovy"
+			],
+			[
+				"config",
+				"grails-app/conf/Config.groovy"
+			],
+			[
+				"contactte",
+				"test/unit/gbook/domain/ContactTests.groovy"
+			],
+			[
+				"contact",
+				"grails-app/domain/gbook/domain/Contact.groovy"
+			],
+			[
+				"myp",
+				"main/webapp/mypage.html"
+			],
+			[
+				"menu",
+				"src/main/webapp/WEB-INF/views/menu.ftl"
+			],
+			[
+				"webm",
+				"src/main/webapp/WEB-INF/spring/webmvc-config.xml"
+			],
+			[
+				"base",
+				"src/main/webapp/WEB-INF/views/base.ftl"
+			],
+			[
+				"home",
+				"src/main/webapp/WEB-INF/views/home/home.ftl"
+			],
+			[
+				"provider",
+				"src/main/java/com/helianthus/pressbook/authentication/PressbookAuthenticationProvider.java"
+			],
+			[
+				"contact_f",
+				"src/main/java/com/helianthus/pressbook/domain/Contact_Roo_Finder.aj"
+			],
+			[
+				"pom",
+				"pom.xml"
+			],
+			[
+				"list.ftl",
+				"src/main/webapp/WEB-INF/views/contacts/list.ftl"
+			],
+			[
+				"conta",
+				"src/main/java/com/helianthus/pressbook/domain/Contact_Roo_Entity.aj"
+			],
+			[
+				"_list",
+				"src/main/webapp/WEB-INF/views/contacts/_list.ftl"
+			],
+			[
+				"login",
+				"target/pressbook-0.1.0.BUILD-SNAPSHOT/WEB-INF/views/login.ftl"
+			],
+			[
+				"create",
+				"src/main/webapp/WEB-INF/views/contacts/create.ftl"
+			],
+			[
+				"list",
+				"src/main/webapp/WEB-INF/views/contacts/list.ftl"
+			],
+			[
+				"base.",
+				"src/main/webapp/WEB-INF/views/base.ftl"
+			],
+			[
+				"create.f",
+				"src/main/webapp/WEB-INF/views/contacts/create.ftl"
+			],
+			[
+				"layouts",
+				"src/main/webapp/WEB-INF/layouts/layouts.xml"
+			],
+			[
+				"con",
+				"src/main/java/com/helianthus/pressbook/domain/Contact_Roo_Configurable.aj"
+			],
+			[
+				"ftl",
+				"grails-app/views/hello/index.ftl"
+			],
+			[
+				"member",
+				"grails-app/controllers/vip/MemberController.groovy"
+			],
+			[
+				"hello",
+				"vip/grails-app/controllers/vip/HelloController.groovy"
+			],
+			[
+				"",
+				"vip/grails-app/conf/BuildConfig.groovy"
+			],
+			[
+				"droolseditor",
+				"scdb/scdbAppWeb/JavaSource/org/iata/idfs/t2005/scdb/dwr/DroolsRuleEditor.java"
+			],
+			[
+				"pet_",
+				"clinic/src/main/java/com/springsource/petclinic/web/PetController_Roo_Controller_Finder.aj"
+			],
+			[
+				"pet.",
+				"clinic/src/main/java/com/springsource/petclinic/domain/Pet.java"
+			],
+			[
+				"charge",
+				"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp2774644084324936546scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/chargeBudgeting.jsp"
+			],
+			[
+				"ch",
+				"/D/jboss-4.2.3.GA/server/default/tmp/deploy/tmp2774644084324936546scdb-ear.ear-contents/scdb-web-exp.war/scdb/jsp/budgeting/chargeBudgeting.jsp"
+			],
+			[
+				"layout",
+				"scdb-web-exp.war/scdb/jsp/usermanagement/Layout.jsp"
+			],
+			[
+				"ben",
+				"scdb-web-exp.war/scdb/jsp/benchmarking/benchmarking.jsp"
+			],
+			[
+				"flexi",
+				"src/main/webapp/css/flexigrid/flexigrid.css"
+			],
+			[
+				"web.x",
+				"src/main/webapp/WEB-INF/web.xml"
+			],
+			[
+				"leadscon",
+				"src/main/webapp/WEB-INF/pages/leads/leadsContent.jsp"
+			],
+			[
+				"leadsind",
+				"src/main/webapp/WEB-INF/pages/leads/leadsIndex.jsp"
+			],
+			[
+				"head",
+				"src/main/webapp/inc/header.jsp"
+			],
+			[
+				"inc/css",
+				"src/main/webapp/inc/cssAndScript.jsp"
+			],
+			[
+				"homeindex",
+				"src/main/webapp/WEB-INF/pages/home/homeIndex.jsp"
+			],
+			[
+				"customer/content",
+				"src/main/webapp/WEB-INF/pages/customer/content.jsp"
+			],
+			[
+				"createcustomer",
+				"src/main/webapp/WEB-INF/pages/customer/createCustomer.jsp"
+			],
+			[
+				"customercontro",
+				"src/main/java/com/foooj/helianthus/crm/customer/action/CustomerController.java"
+			],
+			[
+				"customerindex",
+				"src/main/webapp/WEB-INF/pages/customer/customerIndex.jsp"
+			],
+			[
+				"create.",
+				"src/main/webapp/WEB-INF/pages/customer/create.jsp"
+			],
+			[
+				"mess",
+				"src/main/resource/message-resources_zh.properties"
+			],
+			[
+				"util",
+				"src/main/webapp/js/util.js"
+			],
+			[
+				"customercon",
+				"src/main/webapp/WEB-INF/pages/customer/customerContent.jsp"
+			],
+			[
+				"homein",
+				"src/main/webapp/WEB-INF/pages/home/homeIndex.jsp"
+			],
+			[
+				"content",
+				"src/main/webapp/WEB-INF/pages/campaign/content.jsp"
+			],
+			[
+				"header",
+				"src/main/webapp/inc/header.jsp"
+			],
+			[
+				"dojotest",
+				"src/main/webapp/WEB-INF/pages/playground/dojotest.jsp"
+			],
+			[
+				"playground",
+				"src/main/java/com/foooj/helianthus/crm/playground/action/PlaygroundController.java"
+			],
+			[
+				"dojte",
+				"src/main/webapp/WEB-INF/pages/playground/dojotest.jsp"
+			],
+			[
+				"viewcus",
+				"src/main/webapp/WEB-INF/pages/customer/viewCustomer.jsp"
+			],
+			[
+				"util.jsp",
+				"src/main/webapp/inc/util.jsp"
+			],
+			[
+				"util.js",
+				"src/main/webapp/js/util.js"
+			],
+			[
+				"module",
+				"src/main/webapp/js/Module.js"
+			],
+			[
+				"leadsflexi",
+				"src/main/java/com/foooj/helianthus/crm/leads/service/LeadsFlexigridDataBuilder.java"
+			],
+			[
+				"flexig",
+				"src/main/webapp/js/flexigrid.js"
+			],
+			[
+				"customerservicei",
+				"src/main/java/com/foooj/helianthus/crm/customer/service/impl/CustomerServiceImpl.java"
+			],
+			[
+				"customerflex",
+				"src/main/java/com/foooj/helianthus/crm/customer/service/CustomerFlexigridDataBuilder.java"
+			],
+			[
+				"customcon",
+				"src/main/webapp/WEB-INF/pages/customer/customerContent.jsp"
+			],
+			[
+				"flexigrid",
+				"src/main/webapp/js/flexigrid.js"
+			],
+			[
+				"editcustomer",
+				"src/main/webapp/WEB-INF/pages/customer/editCustomer.jsp"
+			],
+			[
+				"homeinde",
+				"src/main/webapp/WEB-INF/pages/home/homeIndex2.jsp"
+			],
+			[
+				"top.jsp",
+				"src/main/webapp/WEB-INF/pages/home/top.jsp"
+			],
+			[
+				"sec",
+				"src/main/resource/security-context.xml"
+			],
+			[
+				"customersid",
+				"src/main/webapp/WEB-INF/pages/customer/customerSidebar.jsp"
+			],
+			[
+				"leadsside",
+				"src/main/webapp/WEB-INF/pages/leads/leadsSidebar.jsp"
+			],
+			[
+				"customercontent",
+				"src/main/webapp/WEB-INF/pages/customer/customerContent.jsp"
+			],
+			[
+				"leadscontent",
+				"src/main/webapp/WEB-INF/pages/leads/leadsContent.jsp"
+			],
+			[
+				"menu.jsp",
+				"src/main/webapp/WEB-INF/pages/home/menu.jsp"
+			],
+			[
+				"usercontent",
+				"src/main/webapp/WEB-INF/pages/user/content.jsp"
+			],
+			[
+				"customertype",
+				"src/main/webapp/inc/customerTypeOptions.jsp"
+			],
+			[
+				"createl",
+				"src/main/webapp/WEB-INF/pages/leads/createLeads.jsp"
+			],
+			[
+				"viewlea",
+				"src/main/webapp/WEB-INF/pages/leads/viewLeads.jsp"
+			],
+			[
+				"createcu",
+				"src/main/webapp/WEB-INF/pages/customer/createCustomer.jsp"
+			],
+			[
+				"editle",
+				"src/main/webapp/WEB-INF/pages/leads/editLeads.jsp"
+			],
+			[
+				"leads/content",
+				"src/main/webapp/WEB-INF/pages/leads/content.jsp"
+			],
+			[
+				"address.java",
+				"src/main/java/com/foooj/helianthus/crm/core/domain/Address.java"
+			],
+			[
+				"cusflexigriddata",
+				"src/main/java/com/foooj/helianthus/crm/customer/service/CustomerFlexigridDataBuilder.java"
+			],
+			[
+				"inc/",
+				"src/main/webapp/inc/customerTypeOptions.jsp"
+			],
+			[
+				"message",
+				"src/main/resource/message-resources_zh.properties"
+			],
+			[
+				"address",
+				"src/main/webapp/inc/address.jsp"
+			],
+			[
+				"createcontra",
+				"src/main/webapp/WEB-INF/pages/contract/createContract.jsp"
+			],
+			[
+				"documentcontent",
+				"src/main/webapp/WEB-INF/pages/document/documentContent.jsp"
+			],
+			[
+				"editcus",
+				"src/main/webapp/WEB-INF/pages/customer/editCustomer.jsp"
+			],
+			[
+				"viewcust",
+				"src/main/webapp/WEB-INF/pages/customer/viewCustomer.jsp"
+			],
+			[
+				"customercont",
+				"src/main/java/com/foooj/helianthus/crm/customer/action/CustomerController.java"
+			],
+			[
+				"potencus",
+				"src/main/java/com/foooj/helianthus/crm/customer/action/PotentialCustomerController.java"
+			],
+			[
+				"hibern",
+				"src/main/resource/hibernate.cfg.xml"
+			],
+			[
+				"securi",
+				"src/main/resource/security-context.xml"
+			],
+			[
+				"app",
+				"src/main/resource/application-context.xml"
+			],
+			[
+				".xml",
+				"target/classes/web-context.xml"
+			],
+			[
+				"modul",
+				"src/main/webapp/js/Module.js"
+			],
+			[
+				"potentialcontent",
+				"src/main/webapp/WEB-INF/pages/potentialCustomer/content.jsp"
+			],
+			[
+				"document",
+				"src/main/webapp/WEB-INF/pages/document/documentContent.jsp"
+			]
+		],
+		"width": 0
+	},
+	"select_project":
+	{
+		"height": 500,
+		"selected_items":
+		[
+		],
+		"width": 380
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 294,
+	"status_bar_visible": true
+}

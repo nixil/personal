@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<testsuite failures="0" time="0" errors="0" skipped="0" tests="2" name="TaskTest">
+  <testcase classname="TaskTest" name="should run this dumb test" time="0">
+      </testcase>
+  <testcase classname="TaskTest" name="should test data load" time="0">
+      </testcase>
+</testsuite>

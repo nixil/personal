@@ -1,0 +1,665 @@
+05 九月 2011 11:28:43,332 INFO  ~ Starting I:\personal\hitask
+05 九月 2011 11:28:43,337 INFO  ~ Module scala is available (I:\play-1.2.3\modules\scala-0.9.1)
+05 九月 2011 11:28:44,944 INFO  ~ Scala support is active
+05 九月 2011 11:28:44,947 WARN  ~ You're running Play! in DEV mode
+05 九月 2011 11:28:45,029 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+05 九月 2011 11:29:05,749 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+05 九月 2011 11:29:05,764 INFO  ~ Application 'hitask' is now started !
+05 九月 2011 11:29:05,842 INFO  ~ Automatically applying evolutions in in-memory database
+05 九月 2011 13:31:20,522 ERROR ~ 
+
+@67jbho2j6
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 27)
+The file /test/TaskTest.scala could not be compiled. Error raised is : type mismatch;  found   : Long.type (with underlying type object Long)  required: Manifest[?] Error occurred in an application involving default arguments.
+
+play.exceptions.CompilationException: type mismatch;
+ found   : Long.type (with underlying type object Long)
+ required: Manifest[?]
+Error occurred in an application involving default arguments.
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 13:35:19,644 ERROR ~ 
+
+@67jbho2j7
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 28)
+The file /test/TaskTest.scala could not be compiled. Error raised is : ';' expected but integer literal found.
+
+play.exceptions.CompilationException: ';' expected but integer literal found.
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 13:39:59,525 ERROR ~ 
+
+@67jbho2j8
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 14)
+The file /test/TaskTest.scala could not be compiled. Error raised is : not found: value Logger
+
+play.exceptions.CompilationException: not found: value Logger
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 13:44:53,746 ERROR ~ 
+
+@67jbho2j9
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 22)
+The file /test/TaskTest.scala could not be compiled. Error raised is : ';' expected but integer literal found.
+
+play.exceptions.CompilationException: ';' expected but integer literal found.
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 13:45:07,343 ERROR ~ 
+
+@67jbho2ja
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 22)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value size is not a member of play.db.anorm.SimpleSql[models.Task]
+
+play.exceptions.CompilationException: value size is not a member of play.db.anorm.SimpleSql[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 13:45:52,962 ERROR ~ 
+
+@67jbho2jb
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 22)
+The file /test/TaskTest.scala could not be compiled. Error raised is : todoList.size of type Int does not take parameters
+
+play.exceptions.CompilationException: todoList.size of type Int does not take parameters
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 13:46:18,594 ERROR ~ 
+
+@67jbho2jc
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 22)
+The file /test/TaskTest.scala could not be compiled. Error raised is : overloaded method value should with alternatives:   (notWord: TaskTest.this.NotWord)TaskTest.this.ResultOfNotWordForInt &lt;and>   (rightMatcher: org.scalatest.matchers.Matcher[Int])Unit  cannot be applied to (Boolean)
+
+play.exceptions.CompilationException: overloaded method value should with alternatives:
+  (notWord: TaskTest.this.NotWord)TaskTest.this.ResultOfNotWordForInt <and>
+  (rightMatcher: org.scalatest.matchers.Matcher[Int])Unit
+ cannot be applied to (Boolean)
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 13:51:04,128 ERROR ~ 
+
+@67jbho2jd
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 22)
+The file /test/TaskTest.scala could not be compiled. Error raised is : todoList.size of type Int does not take parameters
+
+play.exceptions.CompilationException: todoList.size of type Int does not take parameters
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 13:52:07,968 ERROR ~ 
+
+@67jbho2je
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/Task.scala around line 24)
+The file /app/models/Task.scala could not be compiled. Error raised is : missing arguments for method list in class SimpleSql; follow this method with `_' if you want to treat it as a partially applied function
+
+play.exceptions.CompilationException: missing arguments for method list in class SimpleSql;
+follow this method with `_' if you want to treat it as a partially applied function
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 13:52:25,288 ERROR ~ 
+
+@67jbho2jf
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/Task.scala around line 24)
+The file /app/models/Task.scala could not be compiled. Error raised is : value list_ is not a member of play.db.anorm.SimpleSql[models.Task]
+
+play.exceptions.CompilationException: value list_ is not a member of play.db.anorm.SimpleSql[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 13:52:37,897 ERROR ~ 
+
+@67jbho2jg
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 21)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value size is not a member of (java.sql.Connection) => Seq[models.Task]
+
+play.exceptions.CompilationException: value size is not a member of (java.sql.Connection) => Seq[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:11:00,265 ERROR ~ 
+
+@67jbho2jh
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 31)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value in is not a member of java.lang.String
+
+play.exceptions.CompilationException: value in is not a member of java.lang.String
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:14:11,027 ERROR ~ 
+
+@67jbho2ji
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value id is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value id is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:14:40,997 ERROR ~ 
+
+@67jbho2jj
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value id is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value id is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:15:28,778 ERROR ~ 
+
+@67jbho2jk
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value id is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value id is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:16:06,952 ERROR ~ 
+
+@67jbho2jl
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value name is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value name is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:17:01,015 ERROR ~ 
+
+@67jbho2jm
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/Task.scala around line 23)
+The file /app/models/Task.scala could not be compiled. Error raised is : overloaded method id needs result type
+
+play.exceptions.CompilationException: overloaded method id needs result type
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:17:35,977 ERROR ~ 
+
+@67jbho2jn
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/Task.scala around line 23)
+The file /app/models/Task.scala could not be compiled. Error raised is : value id is defined twice
+
+play.exceptions.CompilationException: value id is defined twice
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:18:05,020 ERROR ~ 
+
+@67jbho2jo
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value name is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value name is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:18:22,927 ERROR ~ 
+
+@67jbho2jp
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value getId is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value getId is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:18:43,183 ERROR ~ 
+
+@67jbho2k0
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value getId is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value getId is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:19:08,199 ERROR ~ 
+
+@67jbho2k1
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value id is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value id is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:20:00,400 ERROR ~ 
+
+@67jbho2k2
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value doing is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value doing is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:20:13,847 ERROR ~ 
+
+@67jbho2k3
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value doing is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value doing is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:21:11,304 ERROR ~ 
+
+@67jbho2k4
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value doing is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value doing is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:22:49,717 ERROR ~ 
+
+@67jbho2k5
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value status is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value status is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:23:48,016 ERROR ~ 
+
+@67jbho2k6
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value doing is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value doing is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:24:01,038 ERROR ~ 
+
+@67jbho2k7
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value doing is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value doing is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:24:35,536 ERROR ~ 
+
+@67jbho2k8
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : task.doing of type Unit does not take parameters
+
+play.exceptions.CompilationException: task.doing of type Unit does not take parameters
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:25:39,901 ERROR ~ 
+
+@67jbho2k9
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/Task.scala around line 29)
+The file /app/models/Task.scala could not be compiled. Error raised is : value getOrElse is not a member of Seq[models.Task]
+
+play.exceptions.CompilationException: value getOrElse is not a member of Seq[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:27:03,999 ERROR ~ 
+
+@67jbho2ka
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/Task.scala around line 23)
+The file /app/models/Task.scala could not be compiled. Error raised is : ';' expected but string literal found.
+
+play.exceptions.CompilationException: ';' expected but string literal found.
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:27:17,214 ERROR ~ 
+
+@67jbho2kb
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/Task.scala around line 23)
+The file /app/models/Task.scala could not be compiled. Error raised is : ';' expected but string literal found.
+
+play.exceptions.CompilationException: ';' expected but string literal found.
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:27:25,527 ERROR ~ 
+
+@67jbho2kc
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /app/models/Task.scala around line 23)
+The file /app/models/Task.scala could not be compiled. Error raised is : ';' expected but string literal found.
+
+play.exceptions.CompilationException: ';' expected but string literal found.
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:27:43,022 ERROR ~ 
+
+@67jbho2kd
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 31)
+The file /test/TaskTest.scala could not be compiled. Error raised is : not found: value Nothing
+
+play.exceptions.CompilationException: not found: value Nothing
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:27:59,138 ERROR ~ 
+
+@67jbho2ke
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 32)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value doing is not a member of Product
+
+play.exceptions.CompilationException: value doing is not a member of Product
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:28:27,976 ERROR ~ 
+
+@67jbho2kf
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 33)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value status is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value status is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 14:28:55,997 ERROR ~ 
+
+@67jbho2kg
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 34)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value status is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value status is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 15:11:13,543 ERROR ~ 
+
+@67jbho2kh
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 34)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value status is not a member of Option[models.Task]
+
+play.exceptions.CompilationException: value status is not a member of Option[models.Task]
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 15:13:12,739 ERROR ~ 
+
+@67jbho2ki
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 35)
+The file /test/TaskTest.scala could not be compiled. Error raised is : missing arguments for method as in trait Sql; follow this method with `_' if you want to treat it as a partially applied function
+
+play.exceptions.CompilationException: missing arguments for method as in trait Sql;
+follow this method with `_' if you want to treat it as a partially applied function
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 15:19:05,676 ERROR ~ 
+
+@67jbho2kj
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 35)
+The file /test/TaskTest.scala could not be compiled. Error raised is : missing arguments for method as in trait Sql; follow this method with `_' if you want to treat it as a partially applied function
+
+play.exceptions.CompilationException: missing arguments for method as in trait Sql;
+follow this method with `_' if you want to treat it as a partially applied function
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 15:57:22,948 ERROR ~ 
+
+@67jbho2kk
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 36)
+The file /test/TaskTest.scala could not be compiled. Error raised is : reference to not is ambiguous; it is both defined in trait Matchers and imported subsequently by  import SqlParser._
+
+play.exceptions.CompilationException: reference to not is ambiguous;
+it is both defined in trait Matchers and imported subsequently by 
+import SqlParser._
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 15:57:42,056 ERROR ~ 
+
+@67jbho2kl
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 39)
+The file /test/TaskTest.scala could not be compiled. Error raised is : value as is not a member of play.db.anorm.Row
+
+play.exceptions.CompilationException: value as is not a member of play.db.anorm.Row
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
+05 九月 2011 15:58:15,383 ERROR ~ 
+
+@67jbho2km
+Internal Server Error (500) for request GET /@tests
+
+Compilation error (In /test/TaskTest.scala around line 39)
+The file /test/TaskTest.scala could not be compiled. Error raised is : missing arguments for method single in class SimpleSql; follow this method with `_' if you want to treat it as a partially applied function
+
+play.exceptions.CompilationException: missing arguments for method single in class SimpleSql;
+follow this method with `_' if you want to treat it as a partially applied function
+	at play.scalasupport.ScalaPlugin.compilationException(ScalaPlugin.scala:129)
+	at play.scalasupport.ScalaPlugin.detectClassesChange(ScalaPlugin.scala:115)
+	at play.plugins.PluginCollection.detectClassesChange(PluginCollection.java:358)
+	at play.Play.detectChanges(Play.java:594)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)

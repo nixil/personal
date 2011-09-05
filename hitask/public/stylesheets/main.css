@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#wrapper{
+    width:760px;
+    margin: 0 auto;
+    text-align:left;
+    position: relative;
+}
+#content{
+    text-align:left;
+}
+
+div.task{
+    border:1px solid grey;
+    font-size:1em;
+    vertical-align: baseline;
+    margin: 10px 5px 10px 0px;
+}
+
+div.task span.title{
+    font-size:1.5em;
+}
+
+div.TODO {
+    background-color: YELLOW;
+}
+
+div.DOING {
+    background-color: GREEN;
+}
+
+div.DONE{
+    background-color: grey;
+}
+
+span.taskCategory{
+    font: 1em "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+}
+
+ul.task{
+    border:1px dotted grey;
+}
+
+ul.task li{
+    list-style-type: none;
+}
+
+ul.todo{
+    border:1px dotted red;
+}
+ul.doing{
+    border:1px dotted green;
+}
+ul.complete{
+    border:1px dotted black;
+}

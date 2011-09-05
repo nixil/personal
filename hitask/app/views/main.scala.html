@@ -1,0 +1,16 @@
+@(title:String = "Welcome To HiTask")(body: => Html)
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>@title</title>
+        <link rel="stylesheet" media="screen" href="@asset("public/stylesheets/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@asset("public/images/favicon.png")">
+    </head>
+    <body>
+        <div id="wrapper">
+        @body
+        </div>
+        <script src="http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js"></script>
+    </body>
+</html>

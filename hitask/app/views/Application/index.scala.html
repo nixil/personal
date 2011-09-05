@@ -1,0 +1,41 @@
+@(user:String="无名氏")(tasks:Seq[models.Task])
+
+@main("Welcome To HiTask") {
+<div id="container" style="text-align:center">
+    <h1>Hello,Alex. Welcome To HiTask</h1>
+    <h2 style="text-align:left"><u>@user的任务列表</u></h2>
+    <div id="content" style="width:800px">
+        <div>
+            <div>
+                <span class="taskCategory">全部</span>
+                <span class="taskCategory" style="background-color:YELLOW">待办</span>
+                <span class="taskCategory" style="background-color:GREEN">进行中</span>
+                <span class="taskCategory" style="background-color:GREY">已完成</span>
+            </div>
+        </div>
+
+        <table width="100%">
+            <tr>
+                <td>
+                    <ul class="task todo">
+                    @tasks.map{ t =>
+                        <li>
+                            <div class="task @t.status">
+                                <span class="title">@t.name</span>
+                                <br>
+                                <span>@t.date.format("EEEE',' MMMM dd',' yyyy")</span>
+                            </div>
+                        </li>
+                    }
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>  
+</div>
+}
+<script type="text/javascript">
+$(document).ready(function() {
+    //TODO something here
+});
+</script>
